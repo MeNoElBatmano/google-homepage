@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #container {
+            display: grid;
+            grid-template-rows: 10% 40% 40% 10%;
+            height: 100vh;
+            
+        }
+
+        #head{
+            grid-row: 1/2;
+            justify-self: end;
+        }
+
+        #main {
+            grid-row: 2/3;
+            margin: auto;   
+            align-self:; 
+        }
+        
+        img {
+            width: 40%;
+            display: block;
+            margin: auto;
+             padding-bottom: 20px;
+        }
+
+        input {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        
+        <div id="head"> 
+            <a>Gmail</a>
+            <a>Images</a>
+        </div>
+
+        <div id="main">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+            <form >
+                <input type="text">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
